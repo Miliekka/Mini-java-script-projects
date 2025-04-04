@@ -1,4 +1,6 @@
-let email="freecodecamp@example.com"             
+//Маскирует адрес электронной почты, сохраняя первый символ имени пользователя,
+//последний символ перед @ и домен без изменений, заменяя остальную часть имени пользователя звездочками ( * ).
+let email="example@mail.com"          
 function maskEmail(email){
   let ind = email.indexOf("@");
   let username = email.slice(0, ind);
